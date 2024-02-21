@@ -15,6 +15,7 @@
         <Product>Extensions.Caching.Oracle</Product>
         <Title>Oracle Cache</Title>
         <PackageIcon>Designer.png</PackageIcon>
+        <RepositoryUrl>https://github.com/Dharmesh-IT/Microsoft.Extensions.Caching.Oracle</RepositoryUrl>
        
        
     </PropertyGroup>
