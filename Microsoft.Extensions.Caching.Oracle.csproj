@@ -1,7 +1,7 @@
 ﻿<Project Sdk="Microsoft.NET.Sdk">
 
     <PropertyGroup>
-        <TargetFramework>net6.0</TargetFramework>
+        <TargetFramework>net9.0</TargetFramework>
         <ImplicitUsings>enable</ImplicitUsings>
         <Nullable>enable</Nullable>
         <Company />
@@ -14,7 +14,7 @@
         <PackageId>Extensions.Caching.Oracle</PackageId>
         <Product>Extensions.Caching.Oracle</Product>
         <Title>Oracle Cache</Title>
-        <PackageIcon>Designer.png</PackageIcon>
+        <PackageIcon>icon.png</PackageIcon>
         <RepositoryUrl>https://github.com/Dharmesh-IT/Microsoft.Extensions.Caching.Oracle</RepositoryUrl>
        
        
@@ -25,7 +25,7 @@
     </ItemGroup>
 
     <ItemGroup>
-      <None Include="..\..\Designer.png">
+      <None Include="..\icon.png">
         <Pack>True</Pack>
         <PackagePath>\</PackagePath>
       </None>
@@ -33,10 +33,10 @@
 
 	
     <ItemGroup>
-        <PackageReference Include="Microsoft.Extensions.Caching.Abstractions" Version="6.0.0" />
-        <PackageReference Include="Microsoft.Extensions.DependencyInjection.Abstractions" Version="6.0.0" />
-        <PackageReference Include="Microsoft.Extensions.Options" Version="6.0.0" />
-        <PackageReference Include="Oracle.ManagedDataAccess.Core" Version="3.21.120" />
+        <PackageReference Include="Microsoft.Extensions.Caching.Abstractions" Version="9.0.4" />
+        <PackageReference Include="Microsoft.Extensions.DependencyInjection.Abstractions" Version="9.0.4" />
+        <PackageReference Include="Microsoft.Extensions.Options" Version="9.0.4" />
+        <PackageReference Include="Oracle.ManagedDataAccess.Core" Version="23.8.0" />
     </ItemGroup>
 
 </Project>
