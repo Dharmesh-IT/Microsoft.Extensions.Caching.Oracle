@@ -16,19 +16,17 @@
         <Title>Oracle Cache</Title>
         <PackageIcon>icon.png</PackageIcon>
         <RepositoryUrl>https://github.com/Dharmesh-IT/Microsoft.Extensions.Caching.Oracle</RepositoryUrl>
+        <ApplicationIcon>icon.ico</ApplicationIcon>
        
        
     </PropertyGroup>
 
     <ItemGroup>
-        <InternalsVisibleTo Include="Microsoft.Extensions.Caching.Oracle.Tests" />
+      <Content Include="icon.ico" />
     </ItemGroup>
 
     <ItemGroup>
-      <None Include="..\icon.png">
-        <Pack>True</Pack>
-        <PackagePath>\</PackagePath>
-      </None>
+        <InternalsVisibleTo Include="Microsoft.Extensions.Caching.Oracle.Tests" />
     </ItemGroup>
 
 	
