@@ -14,7 +14,7 @@
         <PackageId>Extensions.Caching.Oracle</PackageId>
         <Product>Extensions.Caching.Oracle</Product>
         <Title>Oracle Cache</Title>
-        <PackageIcon>icon.png</PackageIcon>
+        <PackageIcon></PackageIcon>
         <RepositoryUrl>https://github.com/Dharmesh-IT/Microsoft.Extensions.Caching.Oracle</RepositoryUrl>
         <ApplicationIcon>icon.ico</ApplicationIcon>
         <AssemblyVersion>2.0.0.0</AssemblyVersion>
